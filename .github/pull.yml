@@ -1,0 +1,6 @@
+version: "1"
+rules:
+  - base: latest
+    upstream: prisma:latest
+    mergeMethod: merge
+    mergeUnstable: true
