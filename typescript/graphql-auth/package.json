@@ -20,7 +20,7 @@
     "apollo-server": "3.9.0",
     "bcryptjs": "2.4.3",
     "graphql": "15.8.0",
-    "graphql-middleware": "6.1.29",
+    "graphql-middleware": "6.1.31",
     "graphql-scalars": "1.17.0",
     "graphql-shield": "7.5.0",
     "jsonwebtoken": "8.5.1",
@@ -29,7 +29,7 @@
   "devDependencies": {
     "@types/bcryptjs": "2.4.2",
     "@types/jsonwebtoken": "8.5.8",
-    "@types/node": "16.11.41",
+    "@types/node": "16.11.42",
     "prisma": "3.15.2",
     "ts-node": "10.8.1",
     "ts-node-dev": "2.0.0",
