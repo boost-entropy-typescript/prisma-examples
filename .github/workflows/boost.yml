@@ -4,12 +4,6 @@ on:
   push:
     branches:
       - latest
-  pull_request:
-    branches:
-      - latest
-    types:
-      - opened
-      - synchronize
 jobs:
   boost-native:
     name: Native Scanner
