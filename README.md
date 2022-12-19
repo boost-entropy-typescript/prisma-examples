@@ -48,6 +48,7 @@ Are you missing an example? Please feel free to [open an issue](https://github.c
 | [`rest-nextjs-api-routes-auth`](https://github.com/prisma/prisma-examples/tree/latest/typescript/rest-nextjs-api-routes-auth) | [Next.js](https://nextjs.org/) app with a REST API (using [Next.js API routes](https://nextjs.org/docs/api-routes/introduction)) and authentication (using [NextAuth.js](https://next-auth.js.org/)) |
 | [`rest-nextjs-express`](https://github.com/prisma/prisma-examples/tree/latest/typescript/rest-nextjs-express)                 | [Next.js](https://nextjs.org/) app with a REST API (using [Express](https://expressjs.com/))                                                                                                         |
 | [`graphql-nextjs`](https://github.com/prisma/prisma-examples/tree/latest/typescript/graphql-nextjs)                           | [Next.js](https://nextjs.org/) app with a GraphQL API (using [Apollo Server](https://github.com/apollographql/apollo-server) and [GraphQL Nexus](https://github.com/graphql-nexus/nexus))            |
+| [`rest-sveltekit`](https://github.com/prisma/prisma-examples/tree/latest/typescript/rest-sveltekit)                           | [SvelteKit](https://kit.svelte.dev/) app with a REST API             |
 
 ### Backend only
 
@@ -120,6 +121,7 @@ The projects in the [`deployment-platforms`](./deployment-platforms) directory s
 - [Indie Stack](https://github.com/remix-run/indie-stack): Remix Stack for deploying to Fly with SQLite, authentication, testing, linting, formatting
 - [Blues Stack](https://github.com/remix-run/blues-stack): Remix Stack for deploying to Fly with PostgreSQL, authentication, testing, linting, formatting
 - [Tottem](https://github.com/poulainv/tottem): Fullstack app for "social library management" (based on Next.js)
+- [Dundring](https://github.com/sivertschou/dundring): An in-browser training application created to control and track you training with a smart bike trainer.
 
 <hr>
 
