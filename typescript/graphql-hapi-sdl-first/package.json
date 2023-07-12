@@ -6,12 +6,12 @@
     "dev": "ts-node src/index.ts"
   },
   "dependencies": {
-    "@apollo/server": "4.7.4",
+    "@apollo/server": "4.7.5",
     "@as-integrations/hapi": "2.0.1",
     "@graphql-tools/schema": "10.0.0",
     "@hapi/hapi": "21.3.2",
     "@prisma/client": "4.16.2",
-    "graphql": "16.6.0",
+    "graphql": "16.7.1",
     "graphql-scalars": "1.22.2"
   },
   "devDependencies": {
