@@ -16,15 +16,15 @@
     "trailingComma": "all"
   },
   "dependencies": {
-    "@pothos/core": "3.35.0",
+    "@pothos/core": "3.36.0",
     "@pothos/plugin-prisma": "3.59.3",
     "@prisma/client": "5.3.1",
-    "graphql": "16.8.0",
+    "graphql": "16.8.1",
     "graphql-scalars": "1.22.2",
     "graphql-yoga": "4.0.4"
   },
   "devDependencies": {
-    "@types/node": "18.17.17",
+    "@types/node": "18.17.18",
     "prisma": "5.3.1",
     "ts-node": "10.9.1",
     "ts-node-dev": "2.0.0",
