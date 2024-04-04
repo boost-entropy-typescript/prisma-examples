@@ -22,14 +22,14 @@
     "@remix-run/eslint-config": "1.19.3",
     "@types/marked": "5.0.2",
     "@types/react": "18.2.74",
-    "@types/react-dom": "18.2.23",
+    "@types/react-dom": "18.2.24",
     "eslint": "8.57.0",
     "prisma": "5.12.0",
     "ts-node": "10.9.2",
     "typescript": "5.4.3"
   },
   "engines": {
-    "node": "20.12.0"
+    "node": "20.12.1"
   },
   "prisma": {
     "seed": "ts-node prisma/seed.ts"
