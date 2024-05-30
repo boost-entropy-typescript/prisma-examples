@@ -9,12 +9,12 @@
     "test": "vitest"
   },
   "devDependencies": {
-    "@cloudflare/vitest-pool-workers": "0.2.12",
-    "@cloudflare/workers-types": "4.20240524.0",
+    "@cloudflare/vitest-pool-workers": "0.3.0",
+    "@cloudflare/workers-types": "4.20240529.0",
     "prisma": "5.14.0",
     "typescript": "5.4.5",
     "vitest": "1.6.0",
-    "wrangler": "3.57.1"
+    "wrangler": "3.57.2"
   },
   "dependencies": {
     "@prisma/adapter-d1": "5.14.0",
