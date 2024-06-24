@@ -11,9 +11,9 @@
     "start": "next start"
   },
   "dependencies": {
-    "@apollo/client": "3.10.5",
-    "@pothos/plugin-prisma": "3.65.2",
-    "@pothos/core": "3.41.1",
+    "@apollo/client": "3.10.6",
+    "@pothos/plugin-prisma": "3.65.3",
+    "@pothos/core": "3.41.2",
     "@prisma/client": "5.15.0",
     "graphql": "16.8.1",
     "graphql-scalars": "1.23.0",
@@ -25,11 +25,11 @@
   },
   "devDependencies": {
     "@types/graphql": "14.5.0",
-    "@types/node": "20.14.7",
+    "@types/node": "20.14.8",
     "@types/react": "18.3.3",
     "prisma": "5.15.0",
     "ts-node": "10.9.2",
-    "typescript": "5.4.5"
+    "typescript": "5.5.2"
   },
   "prisma": {
     "seed": "ts-node prisma/seed.ts"
