@@ -16,13 +16,13 @@
   },
   "devDependencies": {
     "@types/jest": "29.5.12",
-    "@types/node": "20.14.11",
+    "@types/node": "20.14.12",
     "@types/prettyjson": "0.0.33",
     "prettyjson": "1.2.5",
     "prisma": "5.16.1",
     "ts-jest": "29.2.3",
     "ts-node": "10.9.2",
     "ts-node-dev": "2.0.0",
-    "typescript": "5.5.3"
+    "typescript": "5.5.4"
   }
 }

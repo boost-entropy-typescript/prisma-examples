@@ -17,12 +17,12 @@
     "supports-color": "9.4.0"
   },
   "devDependencies": {
-    "@types/node": "20.14.11",
+    "@types/node": "20.14.12",
     "@types/react": "18.3.3",
     "@types/react-dom": "18.3.0",
     "prisma": "5.16.1",
     "ts-node": "10.9.2",
-    "typescript": "5.5.3"
+    "typescript": "5.5.4"
   },
   "prisma": {
     "seed": "ts-node prisma/seed.ts"
