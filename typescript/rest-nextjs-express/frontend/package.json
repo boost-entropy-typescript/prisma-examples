@@ -12,7 +12,7 @@
     "start": "next start"
   },
   "dependencies": {
-    "next": "14.2.8",
+    "next": "14.2.9",
     "react": "18.3.1",
     "react-dom": "18.3.1",
     "react-markdown": "9.0.1"
@@ -21,6 +21,6 @@
     "@types/node": "20.16.5",
     "@types/react": "18.3.5",
     "ts-node": "10.9.2",
-    "typescript": "5.5.4"
+    "typescript": "5.6.2"
   }
 }
