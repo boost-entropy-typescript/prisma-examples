@@ -12,15 +12,15 @@
     "axios": "1.7.7",
     "dotenv-cli": "7.4.2",
     "hono": "4.6.2",
-    "pg": "8.12.0",
+    "pg": "8.13.0",
     "typesense": "1.8.2",
     "zod": "3.23.8"
   },
   "devDependencies": {
-    "@cloudflare/workers-types": "4.20240909.0",
+    "@cloudflare/workers-types": "4.20240919.0",
     "@types/pg": "8.11.10",
     "prisma": "5.19.1",
-    "wrangler": "3.78.3"
+    "wrangler": "3.78.6"
   },
   "prisma": {
     "seed": "dotenv -e .dev.vars -- node prisma/seed.js"
