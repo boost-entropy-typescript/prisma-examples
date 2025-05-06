@@ -61,7 +61,7 @@
     "@types/react-dom": "18.3.7",
     "@typescript-eslint/eslint-plugin": "8.31.1",
     "@typescript-eslint/parser": "8.31.1",
-    "@vitest/ui": "3.1.2",
+    "@vitest/ui": "3.1.3",
     "autoprefixer": "10.4.21",
     "dotenv": "16.5.0",
     "dotenv-cli": "8.0.0",
@@ -70,7 +70,7 @@
     "eslint-plugin-import": "2.31.0",
     "eslint-plugin-jsx-a11y": "6.10.2",
     "eslint-plugin-lodash": "8.0.0",
-    "eslint-plugin-prettier": "5.3.1",
+    "eslint-plugin-prettier": "5.4.0",
     "eslint-plugin-react": "7.37.5",
     "eslint-plugin-react-hooks": "5.2.0",
     "eslint-plugin-testing-library": "7.1.1",
@@ -82,9 +82,9 @@
     "ts-node": "10.9.2",
     "tsx": "4.19.4",
     "typescript": "5.8.2",
-    "vite": "6.3.4",
+    "vite": "6.3.5",
     "vite-tsconfig-paths": "5.1.4",
-    "vitest": "3.1.2"
+    "vitest": "3.1.3"
   },
   "engines": {
     "node": "22.14.0"
