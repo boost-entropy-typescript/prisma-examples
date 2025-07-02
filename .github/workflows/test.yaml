@@ -31,7 +31,17 @@ jobs:
       - name: get list of projects as json array
         id: set-matrix
         run: node .github/scripts/get-packages.js
+  test-prisma-postgres:
+    if: github.repository_owner == 'prisma'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
 
+      - name: Run prisma-postgres test
+        working-directory: .github/tests/databases/prisma-postgres
+        run: |
+          chmod +x run.sh
+          ./run.sh
   test:
     needs: projects-matrix
     if: github.repository_owner == 'prisma'
