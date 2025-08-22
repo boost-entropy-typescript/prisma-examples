@@ -63,7 +63,15 @@ Note that `__YOUR_PRISMA_POSTGRES_CONNECTION_STRING__` is a placeholder value th
 
 Note that `__YOUR_PRISMA_POSTGRES_DIRECT_CONNECTION_STRING__` is a placeholder value that you need to replace with the values of your Prisma Postgres direct TCP connection string. The direct connection string has the following structure: `postgres://<username>:<password>@<host>:<port>/<database>`.
 
-### 3. Run a migration to create the database structure and seed the database
+### 3. Generate Prisma Client
+
+Run:
+
+```
+deno task prisma generate
+```
+
+### 4. Run a migration to create the database structure and seed the database
 
 The [Prisma schema file](./prisma/schema.prisma) contains a single `Quotes` model and a `QuoteKind` enum. You can map this model to the database and create the corresponding `Quotes` table using the following command:
 
@@ -74,15 +82,7 @@ deno task prisma migrate dev --name init
 You now have an empty `Quotes` table in your database. Next, run the [seed script](./prisma/seed.ts) to create some sample records in the table:
 
 ```
-deno run --allow-all --env-file=.env ./prisma/seed.ts
-```
-
-### 4. Generate Prisma Client
-
-Run:
-
-```
-deno task prisma generate
+deno task prisma db seed
 ```
 
 ### 5. Start the app
