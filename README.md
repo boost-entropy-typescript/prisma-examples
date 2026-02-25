@@ -152,6 +152,7 @@ The projects in the [`deployment-platforms`](./deployment-platforms) directory s
 ## Starter kits
 
 - [T3 Stack](https://create.t3.gg/): Starter kit based on Next.js, TypeScript, tRPC, Prisma, Tailwind CSS, and NextAuth.js.
+- [Better Auth Starter](https://github.com/Kinfe123/better-auth-nextjs): Better Auth Starter with Next.js and Prisma
 - [Indie Stack](https://github.com/remix-run/indie-stack): Remix Stack for deploying to Fly with SQLite, authentication, testing, linting, and formatting.
 - [Blues Stack](https://github.com/remix-run/blues-stack): Remix Stack for deploying to Fly with PostgreSQL, authentication, testing, linting, and formatting.
 - [NestJS Prisma Starter](https://github.com/notiz-dev/nestjs-prisma-starter): NestJS, Prisma, and authentication starter template.
@@ -159,6 +160,7 @@ The projects in the [`deployment-platforms`](./deployment-platforms) directory s
 - [Saas Kit Prisma](https://github.com/Saas-Starter-Kit/Saas-Kit-prisma): Full-stack SaaS starter kit using React.js, Next.js, TypeScript, Tailwind, Shadcn, Stripe, NextAuth, Prisma, Postgres, and Playwright.
 - [Saas Kit Prisma by BoxyHQ](https://github.com/boxyhq/saas-starter-kit): An open-source enterprise SaaS starter kit using Prisma ORM.
 - [NextReady](https://nextready.dev): A ready-to-use Next.js boilerplate with Prisma, TypeScript, Tailwind CSS, and more.
+- [Makerkit Prisma](https://makerkit.dev/prisma): A production-ready SaaS Starter Kit with Next.js 16, Prisma 7, Shadcn Base UI, Zod4 and Stripe
 
 ## Badges
 
