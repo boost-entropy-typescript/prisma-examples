@@ -1,0 +1,32 @@
+{
+  "name": "typescript-graphql-gqloom",
+  "private": true,
+  "type": "commonjs",
+  "scripts": {
+    "dev": "tsx watch --env-file=.env src/server.ts",
+    "start": "tsx --env-file=.env src/server.ts",
+    "generate": "prisma generate"
+  },
+  "devDependencies": {
+    "@types/node": "^24.8.1",
+    "prisma": "7.5.0",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "@gqloom/core": "^0.12.1",
+    "@gqloom/prisma": "^0.12.2",
+    "@gqloom/zod": "^0.12.2",
+    "@prisma/adapter-pg": "7.5.0",
+    "@prisma/client": "7.5.0",
+    "dotenv": "16.6.1",
+    "graphql": "^16.11.0",
+    "graphql-scalars": "^1.25.0",
+    "graphql-yoga": "^5.16.0",
+    "pg": "^8.16.0",
+    "zod": "^4.1.12"
+  },
+  "prisma": {
+    "seed": "tsx prisma/seed.ts"
+  }
+}
