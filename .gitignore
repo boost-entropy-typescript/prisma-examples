@@ -16,6 +16,7 @@ package-lock.json
 flow-typed
 yarn.lock
 bun.lock
+!compute/*/bun.lock
 pnpm-lock.yaml
 orm/**/migrations/
 misc/**/migrations/

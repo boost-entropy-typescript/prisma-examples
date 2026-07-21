@@ -22,7 +22,7 @@ async function main() {
       posts: {
         create: [
           {
-            title: "Hello from Hono on Prisma Compute",
+            title: "Hello from Next.js on Prisma Compute",
             content: "This post was inserted by prisma/seed.ts.",
             published: true,
           },
@@ -42,7 +42,7 @@ async function main() {
         create: [
           {
             title: "Deploy with @prisma/cli",
-            content: "Run npm run compute:deploy after setting DATABASE_URL in .env.",
+            content: "Run bun run compute:deploy after setting DATABASE_URL in .env.",
             published: true,
           },
         ],
