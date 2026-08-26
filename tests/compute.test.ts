@@ -157,6 +157,9 @@ describe('Prisma Compute examples', () => {
       expect(rootEntries.includes('prisma.config.ts')).toBe(
         databaseTemplateIds.has(template.id),
       )
+      expect(rootEntries.includes('migrations')).toBe(
+        databaseTemplateIds.has(template.id),
+      )
       expect(rootEntries).not.toContain('prisma-next.config.ts')
       expect(rootEntries).not.toContain('prisma.compute.json')
       expect(rootEntries.filter((entry) => lockfileNames.has(entry))).toEqual([
@@ -173,11 +176,15 @@ describe('Prisma Compute examples', () => {
       }
       expect(packageJson.packageManager).toBe(packageManager)
       const isDatabaseTemplate = databaseTemplateIds.has(template.id)
-      expect(packageJson.dependencies?.['@prisma/composer']).toBe('0.15.0')
-      expect(packageJson.dependencies?.['@prisma/composer-prisma-cloud']).toBe(
-        '0.15.0',
+      const composerVersion = isDatabaseTemplate ? '0.16.0' : '0.15.0'
+      const prismaVersion = isDatabaseTemplate ? '8.0.0-rc.12' : '8.0.0-rc.11'
+      expect(packageJson.dependencies?.['@prisma/composer']).toBe(
+        composerVersion,
       )
-      expect(packageJson.devDependencies?.['prisma']).toBe('8.0.0-rc.11')
+      expect(packageJson.dependencies?.['@prisma/composer-prisma-cloud']).toBe(
+        composerVersion,
+      )
+      expect(packageJson.devDependencies?.['prisma']).toBe(prismaVersion)
       expect(
         packageJson.devDependencies?.['@prisma/composer-cli'],
       ).toBeUndefined()
@@ -186,7 +193,7 @@ describe('Prisma Compute examples', () => {
       ).toBeUndefined()
       if (databaseTemplateIds.has(template.id)) {
         expect(packageJson.dependencies?.['@prisma/orm-postgres']).toBe(
-          '8.0.0-rc.4',
+          '8.0.0-rc.8',
         )
         expect(packageJson.scripts?.['contract:emit']).toBe(
           'prisma contract emit',
@@ -230,6 +237,11 @@ describe('Prisma Compute examples', () => {
           'git',
           ['diff', '--exit-code', '--', `${template.path}/src/prisma`],
           { cwd: repositoryRoot },
+        )
+        await execa(
+          'bun',
+          ['run', 'prisma', 'migration', 'check', '--space', 'app'],
+          { cwd: templateDirectory, stdio: 'inherit' },
         )
       }
 
